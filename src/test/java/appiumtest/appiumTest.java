@@ -41,12 +41,13 @@ public class appiumTest {
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
 		
+		//device namenya diganti sesuai device name emulator, emulator device name aku "emulator-5544"
 		cap.setCapability("deviceName", "emulator-5554");
 		cap.setCapability("platformName", "Android");
+		//appPackage diganti sesuai appPackage device
 		cap.setCapability("appPackage",  "com.splendapps.splendo");
+		//appActivity diganti sesuai appActivity device
 		cap.setCapability("appActivity", "com.splendapps.splendo.MainActivity");
-		
-		System.out.println("sampai sini");
 		
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		
