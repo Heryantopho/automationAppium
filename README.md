@@ -10,4 +10,5 @@ Step for execute:
 2. open src/test/java
 3. open package appiumtest
 4. open class appiumTest.java
-5. run appiumTest.java as java application
+5. change the device name if have different device name (default is : emulator-5554)
+6. run appiumTest.java as java application
